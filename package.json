@@ -1,0 +1,30 @@
+{
+  "name": "try-tonejs-polyphonic",
+  "version": "1.0.0",
+  "description": "Tone.jsでFM2OPを何ポリ鳴らすとiPadで音途切れが発生するか検証する",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --hot --open --content-base dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cat2151/try-tonejs-polyphonic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cat2151/try-tonejs-polyphonic/issues"
+  },
+  "homepage": "https://github.com/cat2151/try-tonejs-polyphonic#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "tone": "^14.7.77"
+  }
+}
